@@ -62,6 +62,11 @@ public class StackExample {
     }
 
 
+    //function that verify if the Stack is Empty
+    public Boolean isEmpty(){
+       return index==-1;
+    }
+
 
 
 
@@ -80,6 +85,26 @@ public class StackExample {
         System.out.println(stack.Peek());
        //stack.AfficherStack();
         stack.AfficherStack();
+        System.out.println();
+        System.out.println("///////////////////////////////////////////");
+        // Training : Create a funtion that reverse a String : ISMAEL -> LEAMSI
+
+        String word="ISMAEL";
+        StackExample stack2= new StackExample(word.length());
+
+
+
+        for(int i=0;i< word.length(); i++){
+            // Push the characters into the Stack
+            stack2.push( (int) word.charAt(i)); // cast char to int (Code ASCI)
+        }
+
+        System.out.println("La chaine de caractere avant reversion : "+word);
+        // Printing the string reversed
+        System.out.print("La chaine de caractere apres reversion : ");
+        while(!stack2.isEmpty()){
+            System.out.print((char)stack2.Pop());
+        }
     }
 
 }
