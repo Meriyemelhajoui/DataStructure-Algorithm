@@ -84,14 +84,14 @@ public class StackExample {
         System.out.println(stack.Peek());
        //stack.AfficherStack();
         stack.AfficherStack();
-<<<<<<< HEAD
+
         System.out.println();
         System.out.println("///////////////////////////////////////////");
         // Training : Create a funtion that reverse a String : ISMAEL -> LEAMSI
-=======
+
 
    // Training : Create a funtion that reverse a String : ISMAEL -> LEAMSI
->>>>>>> 916078f69f83cbe3d2525b88b1a8cc00ecbbcc3d
+
 
         String word="ISMAEL";
         StackExample stack2= new StackExample(word.length());
@@ -109,10 +109,9 @@ public class StackExample {
         while(!stack2.isEmpty()){
             System.out.print((char)stack2.Pop());
         }
-<<<<<<< HEAD
-=======
+
     }      
->>>>>>> 916078f69f83cbe3d2525b88b1a8cc00ecbbcc3d
+
     }
 
-}
+
