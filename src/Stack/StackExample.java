@@ -9,7 +9,7 @@ public class StackExample {
     // Peek() to see the top element in a stack without removing the element or modifying the Stack
     // a Stack can be implementing using array or LinkedList but preferably using LinkedList because array have a Fixed size so u can have a Stack OverFlow
     // example of Using Stack : Historique d un navigateur / page suivante/precedante
-
+    // push / pop O (n) 
     // Stack using Array
     private int index;
     private int [] arrayStack;
@@ -71,7 +71,6 @@ public class StackExample {
 
 
 
-
     public static void main(String[] args) {
     StackExample stack= new StackExample(5);
     stack.push(1);
@@ -85,9 +84,14 @@ public class StackExample {
         System.out.println(stack.Peek());
        //stack.AfficherStack();
         stack.AfficherStack();
+<<<<<<< HEAD
         System.out.println();
         System.out.println("///////////////////////////////////////////");
         // Training : Create a funtion that reverse a String : ISMAEL -> LEAMSI
+=======
+
+   // Training : Create a funtion that reverse a String : ISMAEL -> LEAMSI
+>>>>>>> 916078f69f83cbe3d2525b88b1a8cc00ecbbcc3d
 
         String word="ISMAEL";
         StackExample stack2= new StackExample(word.length());
@@ -105,6 +109,10 @@ public class StackExample {
         while(!stack2.isEmpty()){
             System.out.print((char)stack2.Pop());
         }
+<<<<<<< HEAD
+=======
+    }      
+>>>>>>> 916078f69f83cbe3d2525b88b1a8cc00ecbbcc3d
     }
 
 }
