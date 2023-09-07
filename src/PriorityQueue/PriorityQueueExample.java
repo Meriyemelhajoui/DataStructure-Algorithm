@@ -6,6 +6,10 @@ package PriorityQueue;
 // which means every element will have a priority
 //Ascending order -> Elements that have a high priority will be served first
 // if two elements have the same Priority , they will be served According to their order
+// Time Complexity : 
+    // Enqueue O(n) -> the worst case we need to loop over the elements to shift them and make room for the new element 
+    // Dequeue O(n) -> the worst case we need to search through all elements to find the highest 
+
 public class PriorityQueueExample {
     // in this example we will work with the Descending Order which means from the Greater Number to the Lower one
     // The numbers will be inserted in a descending order from the Front and removed from the Front also 9 8 7 6 0
