@@ -1,6 +1,7 @@
 package Queue;
 // Queue is another data type structure (Linear) follows the FIFO : First In First Out
 // Front / Tail
+// Time complexity for : Enqueue / Dequeue / Peek : O(1) We insert from the Tail and dequeue from the Front . 
 
 public class QueueExample {
 
